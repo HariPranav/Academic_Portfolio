@@ -2,13 +2,14 @@
 title: Hackathons And Why You Should Attend One
 subtitle: ""
 date: 2021-09-14T11:37:25.739Z
-summary: Welcome 👋 We know that first impressions are important, so we've
-  populated your new site with some initial content to help you get familiar
-  with everything in no time.
+summary: College life can be hard, travelling for 4 hours straight, listening to
+  boring lectures without understanding the implication in real life. Would an
+  event where a group of strangers from different backgrounds brainstorm to
+  create something creative cheer you up?? Read on.
 draft: false
 featured: true
 authors: []
-lastmod: 2020-12-13T00:00:00Z
+lastmod: 2020-12-13T00:00:00.000Z
 tags:
   - Academic
   - 开源
