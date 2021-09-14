@@ -1,6 +1,11 @@
 ---
 title: Open Source Resources To Get Into Tech
 date: 2021-09-14T11:43:22.456Z
+summary: Getting into tech and finding your passion is sometimes the hardest
+  decision because the opportunities are endless. Hence getting started and
+  sticking to a domain becomes difficult. This blog takes you through the
+  process of creating a cross platform application which has open source
+  resources to explore various domains and experiment with them.
 draft: false
 featured: false
 categories:
