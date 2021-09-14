@@ -1,7 +1,7 @@
 ---
 title: Hari Pranav A
 role: ""
-avatar_filename: avatar.png
+avatar_filename: avatar.jpg
 bio: My research interests include Decentralized Computing, Cloud Security and
   Dev Ops
 interests:
