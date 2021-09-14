@@ -1,6 +1,6 @@
 ---
 title: Hari Pranav A
-role: Analyst - EY LLP
+role: ""
 avatar_filename: avatar.png
 bio: My research interests include Decentralized Computing, Cloud Security and
   Dev Ops
@@ -15,11 +15,6 @@ social:
   - icon: graduation-cap
     icon_pack: fas
     link: https://scholar.google.com/citations?user=fvWsuGAAAAAJ&hl=en
-  - display:
-      header: false
-    link: https://medium.com/@haripranav98
-    icon_pack: fas
-    icon: medium
   - icon: github
     icon_pack: fab
     link: https://github.com/HariPranav
