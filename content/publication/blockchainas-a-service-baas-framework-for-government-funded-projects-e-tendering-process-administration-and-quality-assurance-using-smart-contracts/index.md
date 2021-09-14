@@ -10,8 +10,9 @@ authors:
   - Ashwin.M.S
   - Dr.R.Chinnaiyan
 doi: 10.1109/ICCCI50826.2021.9402348
-publication: In *IEEE*
-publication_short: 2021 International Conference on Computer Communication and Informatics (ICCCI)
+publication: "In 2021 International Conference on Computer Communication and
+  Informatics (ICCCI) "
+publication_short: In *IEEE*
 abstract: ""
 draft: false
 featured: false
