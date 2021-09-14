@@ -29,7 +29,7 @@ url_source: ""
 url_video: ""
 title: Decentralised Marketplace With Continuous Quality Assurance for
   Agricultural Trade using  IoT and Machine Learning
-doi: 10.1109/ICCCI50826.2021.9402348
+doi: 10.1109/ICCCI50826.2021.9402435
 featured: true
 tags:
   - Tech
@@ -47,7 +47,7 @@ image:
   filename: featured.jpg
 date: 2021-09-14T15:34:58.068Z
 url_slides: ""
-publishDate: 2017-01-01T00:00:00Z
+publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
 url_code: ""
 ---
