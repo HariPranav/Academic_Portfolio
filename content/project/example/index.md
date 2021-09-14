@@ -18,7 +18,7 @@ tags:
   - Cyber_Security
 links:
   - url: https://docs.google.com/presentation/d/1n8OcMsegMK0wrCqM6DqOOri1Ud5AHyEp/edit#slide=id.gdb70e5b088_0_91
-    name: ""
+    name: Slides
 image:
   caption: ""
   focal_point: Smart
