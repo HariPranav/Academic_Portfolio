@@ -16,27 +16,27 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: 90%
+- description: 
   icon: java
   icon_pack: fab
   name: Java
-- description: 80%
+- description: 
   icon: python
   icon_pack: fab
   name: python
-- description: 50%
+- description: 
   icon: js
   icon_pack: fab
   name: Javascript
-- description: 90%
+- description: 
   icon: aws
   icon_pack: fab
   name: AWS
-- description: 80%
+- description: 
   icon: ubuntu
   icon_pack: fab
   name: Ubuntu
-- description: 90%
+- description: 
   icon: linux
   icon_pack: fab
   name: Linux
