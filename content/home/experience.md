@@ -37,7 +37,7 @@ experience:
         * Worked on data cleaning, data analysis, data warehousing and data modeling.
         * Implemented and secured Apache Superset solution on EC2 using Docker.
         
-- title: Security Analyst Intern
+  - title: Security Analyst Intern
     company: Gautam Buddha Nagar Police Commissionerate
     company_url: 'http://noidapolice.com/web/commissioner-of-police'
     company_logo: gautham
@@ -52,7 +52,7 @@ experience:
         * Hands on experience with OSINT
         * Analysis of Government Websites and reporting vulnerabilities
 
- - title: Application Technology Engineer
+  - title: Application Technology Engineer
     company: Gautam Buddha Nagar Police Commissionerate
     company_url: 'http://noidapolice.com/web/commissioner-of-police'
     company_logo: nivid
@@ -67,7 +67,7 @@ experience:
         * Created a Blockchain solution for logging data in the pharma industry. 
         * Content creation built apps to help daily wage workers
 
- - title: Network Configurator
+  - title: Network Configurator
     company: HasGeek
     company_url: 'https://hasgeek.com/'
     company_logo: hg
@@ -78,8 +78,9 @@ experience:
         Responsibilities include:
         
         * Worked on the set up and configuration of UniFi family of devices
-        * Set up of network infrastructure for Open Source India,EthIndia,Fifth Elephant        
+        * Set up of network infrastructure for Open Source India,EthIndia,Fifth Elephant
   
+   
      
 design:
   columns: '2'
