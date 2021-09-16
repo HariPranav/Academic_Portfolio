@@ -42,6 +42,5 @@ subtitle:
 # For example, reference `assets/media/icons/xyz.svg` as `icon: 'xyz'`
 - icon: aws
   icon_pack: "custom"
-  name: "AWS"
+  name: "aws"
   description: "90%"
----
