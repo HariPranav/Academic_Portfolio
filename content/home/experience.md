@@ -43,7 +43,7 @@ experience:
     company_logo: gautham
     location: Bangalore
     date_start: '2020-08-13'
-    date_end: '2020-10-13'  
+    date_end: '2020-10-14'  
     description: |2-
         Responsibilities include:
         
