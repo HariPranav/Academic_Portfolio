@@ -52,6 +52,36 @@ experience:
         * Hands on experience with OSINT
         * Analysis of Government Websites and reporting vulnerabilities
 
+  - title: Application Technology Engineer
+    company: Nivid AI
+    company_url: 'https://nividai.com/home'
+    company_logo: nivid
+    location: Bangalore
+    date_start: '2020-01-13'
+    date_end: '2020-04-13'  
+    description: |2-
+        Responsibilities include:
+        
+        * Created custom pricing cards using Bootstrap , HTML , Javascript
+        * Wrote scripts in Python to extract text from legal documents
+        * Created a Blockchain solution for logging data in the pharma industry. 
+        * Content creation built apps to help daily wage workers
+
+  - title: Network Configurator
+    company: HasGeek
+    company_url: 'https://hasgeek.com/'
+    company_logo: hg
+    location: Bangalore
+    date_start: '2018-01-04'
+    date_end: '2019-07-30'  
+    description: |2-
+        Responsibilities include:
+        
+        * Worked on the set up and configuration of UniFi family of devices
+        * Set up of network infrastructure for Open Source India,EthIndia,Fifth Elephant
+  
+   
+
  
      
 design:
