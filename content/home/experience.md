@@ -22,29 +22,64 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
+  - title: Data Analyst
+    company: EY LLP
+    company_url: 'https://www.ey.com/en_in'
     company_logo: ey
-    location: California
-    date_start: '2021-01-01'
+    location: Banglaore
+    date_start: '2021-03-01'
     date_end: ''
     description: |2-
         Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Architecture and implementation of cloud security.
+        * Identification and analysis of KPI's in India's largest gold loan business.
+        * Worked on data cleaning, data analysis, data warehousing and data modeling
+        * Implemented and secured Apache Superset solution on EC2 using Docker.
         
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+  - title: Security Analyst Intern
+    company: Gautam Buddha Nagar Police Commissionerate
+    company_url: 'http://noidapolice.com/web/commissioner-of-police'
+    company_logo: gautham
+    location: Bangalore
+    date_start: '2020-08-13'
+    date_end: '2020-10-13'  
+    description: |2-
+        Responsibilities include:
+        
+        * Completed training in CEH Hands on experience in Kali linux
+        * Gained good knowledge about OWASP top 10 and WAPT.
+        * Hands on experience with OSINT
+        * Analysis of Government Websites and reporting vulnerabilities
 
+ - title: Application Technology Engineer
+    company: Gautam Buddha Nagar Police Commissionerate
+    company_url: 'http://noidapolice.com/web/commissioner-of-police'
+    company_logo: nivid
+    location: Bangalore
+    date_start: '2020-01-13'
+    date_end: '2020-04-13'  
+    description: |2-
+        Responsibilities include:
+        
+        * Created custom pricing cards using Bootstrap , HTML , Javascript
+        * Wrote scripts in Python to extract text from legal documents
+        * Created a Blockchain solution for logging data in the pharma industry. 
+        * Video editing and content creation Prototyping of Apps to help daily wage workers
+
+ - title: Network Configurator
+    company: HasGeek
+    company_url: 'https://hasgeek.com/'
+    company_logo: hg
+    location: Bangalore
+    date_start: '2018-01-04'
+    date_end: '2019-07-30'  
+    description: |2-
+        Responsibilities include:
+        
+        * Worked on the set up and configuration of UniFi family of devices
+        * Set up the network infrastructure for events such as Open Source India , EthIndia , Fifth Elephant
+     
 design:
   columns: '2'
 ---
