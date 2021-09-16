@@ -34,8 +34,9 @@ experience:
         
         * Architecture and implementation of cloud security.
         * Identification and analysis of KPI's in India's largest gold loan business.
-        * Worked on data cleaning, data analysis, data warehousing and data modeling
+        * Worked on data cleaning, data analysis, data warehousing and data modeling.
         * Implemented and secured Apache Superset solution on EC2 using Docker.
+        
 - title: Security Analyst Intern
     company: Gautam Buddha Nagar Police Commissionerate
     company_url: 'http://noidapolice.com/web/commissioner-of-police'
