@@ -12,7 +12,6 @@ authors: []
 lastmod: 2020-12-13T00:00:00.000Z
 tags:
   - Academic
-  - 开源
 categories:
   - Hackathons
   - College_Life
