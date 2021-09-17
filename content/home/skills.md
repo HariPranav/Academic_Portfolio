@@ -17,6 +17,18 @@ subtitle:
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
 - description: 
+  icon: aws
+  icon_pack: custom
+  name: AWS
+- description: 
+  icon: docker
+  icon_pack: custom
+  name: Docker
+- description: 
+  icon: suricata
+  icon_pack: custom
+  name: Suricata
+- description: 
   icon: javap
   icon_pack: custom
   name: Java
@@ -29,29 +41,21 @@ feature:
   icon_pack: custom
   name: Javascript
 - description: 
-  icon: flutter
-  icon_pack: custom
-  name: Flutter
-- description: 
   icon: html
   icon_pack: custom
   name: HTML
 - description: 
+  icon: flutter
+  icon_pack: custom
+  name: Flutter  
+- description: 
+  icon: flask
+  icon_pack: custom
+  name: Flask
+- description: 
   icon: github
   icon_pack: custom
   name: Github
-- description: 
-  icon: docker
-  icon_pack: custom
-  name: Docker
-- description: 
-  icon: suricata
-  icon_pack: custom
-  name: Suricata
-- description: 
-  icon: aws
-  icon_pack: custom
-  name: AWS
 - description: 
   icon: kali
   icon_pack: custom
