@@ -25,9 +25,9 @@ feature:
   icon_pack: custom
   name: Docker
 - description: 
-  icon: suricata
+  icon: zeek
   icon_pack: custom
-  name: Suricata
+  name: Zeek
 - description: 
   icon: java
   icon_pack: custom
@@ -57,9 +57,9 @@ feature:
   icon_pack: custom
   name: Github
 - description: 
-  icon: kali
+  icon: linux
   icon_pack: custom
-  name: Kali Linux
+  name: linux
 - description: 
   icon: elastic
   icon_pack: custom
