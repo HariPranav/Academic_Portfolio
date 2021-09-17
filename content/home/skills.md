@@ -27,7 +27,7 @@ feature:
 - description: 
   icon: zeek
   icon_pack: custom
-  name: Zeek
+  name: Intrusion Detection System
 - description: 
   icon: java
   icon_pack: custom
