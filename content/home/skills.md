@@ -29,7 +29,7 @@ feature:
   icon_pack: custom
   name: Suricata
 - description: 
-  icon: javap
+  icon: java
   icon_pack: custom
   name: Java
 - description: 
