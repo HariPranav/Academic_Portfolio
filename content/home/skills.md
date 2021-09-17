@@ -17,30 +17,61 @@ subtitle:
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
 - description: 
-  icon: java
-  icon_pack: fab
+  icon: javap
+  icon_pack: custom
   name: Java
 - description: 
   icon: python
-  icon_pack: fab
-  name: python
+  icon_pack: custom
+  name: Python
 - description: 
-  icon: js
-  icon_pack: fab
+  icon: javascript
+  icon_pack: custom
   name: Javascript
 - description: 
+  icon: flutter
+  icon_pack: custom
+  name: Flutter
+- description: 
+  icon: html
+  icon_pack: custom
+  name: HTML
+- description: 
+  icon: github
+  icon_pack: custom
+  name: Github
+- description: 
+  icon: docker
+  icon_pack: custom
+  name: Docker
+- description: 
+  icon: suricata
+  icon_pack: custom
+  name: Suricata
+- description: 
   icon: aws
-  icon_pack: fab
+  icon_pack: custom
   name: AWS
 - description: 
-  icon: ubuntu
-  icon_pack: fab
-  name: Ubuntu
+  icon: kali
+  icon_pack: custom
+  name: Kali Linux
 - description: 
-  icon: linux
-  icon_pack: fab
-  name: Linux
-
+  icon: elastic
+  icon_pack: custom
+  name: Elastic Search
+- description: 
+  icon: kibana
+  icon_pack: custom
+  name: kibana
+- description: 
+  icon: mysql
+  icon_pack: custom
+  name: mysql
+- description: 
+  icon: mongo 
+  icon_pack: custom
+  name: MongoDB
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
 #  icon_pack: "emoji"
@@ -55,4 +86,3 @@ feature:
 #  icon_pack: "custom"
 #  name: "Surfing"
 #  description: "90%"
----
