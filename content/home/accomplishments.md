@@ -26,7 +26,7 @@ item:
 - certificate_url: https://drive.google.com/file/d/1Z_XUoD0Nnwnx-Yl2PtIvr1Ah59WKu597/view?usp=sharing
   date_end: ""
   date_start: "2021-01-01"
-  description: "Formulated informed blockchain models, hypotheses, and use cases."
+  description: "Built an App for the community to vote for their leaders based on the historical data logged on the blockchain overtime,A prototype to create a “People's Manifesto"
   organization: 
   organization_url: 
   title: Microsft Impact India Hackathon- Second Place
