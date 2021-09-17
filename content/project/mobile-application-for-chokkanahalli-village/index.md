@@ -18,7 +18,7 @@ links:
   - url: https://docs.google.com/presentation/d/1fek_vQkE44kOfAYuhV4vHvkgQAxqw-L3/edit?usp=sharing&ouid=101402491423655277421&rtpof=true&sd=true
     name: Slides
 image:
-  filename: featured
+  filename: featured.jpg
   focal_point: Smart
   preview_only: false
 ---
