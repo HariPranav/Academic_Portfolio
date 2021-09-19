@@ -38,4 +38,4 @@ Hari Pranav A is an engineering graduate and is currently working as an Analyst 
  
 Outside work he can be found participating and volunteering at International/National Hackathons and he has won a few of them during his college days. He has also published research papers in the field of decentralized computing and cyber security. He actively attends conferences and blogs in his free time to help upcoming graduates navigate and find their passion in the field of engineering. 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
