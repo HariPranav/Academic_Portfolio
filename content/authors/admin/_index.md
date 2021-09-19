@@ -22,7 +22,7 @@ social:
     icon_pack: fab
     link: https://twitter.com/aharipranav
 organizations:
-  - name: EY LLP
+  - name: Analyst @ EY LLP
     url: https://www.ey.com/en_in
 education:
   courses:
