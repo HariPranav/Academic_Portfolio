@@ -749,20 +749,4 @@ Find me on the web below !!
 
 \[My Decentralized Portfolio](https://hp.on.fleek.co/#/)
 
-<div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-    this.page.url = 'https://hari98.netlify.app/post/documentation-for-projects';
-    this.page.identifier = '/post/documentation-for-projects';
-    };
-    
-    (function() {
-    var d = document, s = d.createElement('script');
-    s.src = 'https://hari98-netlify-app.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
 <!--EndFragment-->
