@@ -1,5 +1,5 @@
 ---
-title: Custom ETL Piplelines in AWS
+title: Building Data Engineering Piplelines in AWS
 date: 2021-12-17T15:39:58.032Z
 summary: Creating data pipelines from a custom front end to interact with AWS
   and to visualize the same using Quicksight
@@ -10,7 +10,7 @@ categories:
   - AWS
   - MachineLearning
 image:
-  filename: meme.jpg
+  filename: featured.jpg
   focal_point: Smart
   preview_only: false
 ---
