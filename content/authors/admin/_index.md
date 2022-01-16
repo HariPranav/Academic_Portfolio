@@ -27,15 +27,15 @@ organizations:
 education:
   courses:
     - course: B.E - Information Science and Engineering
-      institution: CMIRT
+      institution: CMRIT
       year: 2021
 email: ""
 superuser: true
 highlight_name: true
 ---
 
-Hari Pranav A is an engineering graduate and is currently working as an Analyst at EY. He leads the Cloud Architecture team, which is responsible for deployment and maintenance of secure solutions on the cloud. His tasks include working on Big Data platforms which deal with the business understanding, cleaning and modelling of data. He actively maintains EC2 instances and has deployed and secured Analytics platforms such as Apache Superset deployment on Docker.
+Hari Pranav A is an engineering graduate and is currently working as Senior Analyst at EY. He is a part of the Cloud Architecture team, which is responsible for deployment and maintenance of secure solutions on the cloud. His tasks include working on Big Data platforms which deal with the business understanding, cleaning and modelling of data. He actively maintains EC2 instances and has deployed and secured Analytics platforms such as Apache Superset deployment on Docker.
  
-Outside work he can be found participating and volunteering at International/National Hackathons and he has won a few of them during his college days. He has also published research papers in the field of decentralized computing and cyber security. He actively attends conferences and blogs in his free time to help upcoming graduates navigate and find their passion in the field of engineering. 
+Outside work he can be found participating and volunteering at International/National Hackathons and he has won a few of them during his college days. He has also published research papers in the field of decentralized computing and cyber security.  
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
