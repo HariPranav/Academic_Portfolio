@@ -423,3 +423,4 @@ $sudo chmod 777 automate_s3_storage.sh
    $ cron tab -l
 
 By following all these steps the data is successfully backed up into s3 on a periodic basis. Due to the compression the size of the file is reduced by a factor of 4. (15 GB file is reduced to 3.7Gb)
+
