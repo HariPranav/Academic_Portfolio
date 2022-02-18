@@ -5,6 +5,7 @@ summary: Creating data pipelines from a custom front end to interact with AWS
   and to visualize the same using Quicksight
 draft: false
 featured: false
+tags: []
 categories:
   - DataEngineering
   - AWS
@@ -26,12 +27,18 @@ Hence we need to create a front end interface and use data frames to increase th
 
 The architecture flow is as follows:
 
-![Architecture](https://raw.githubusercontent.com/HariPranav/BENIMAGES/master/AWSWrangler/architecture.png)
+![Architecture]![image](https://user-images.githubusercontent.com/28874545/154731819-b06da20b-d574-4303-9f34-e963e2e86613.png)
 
-1. The flask application is hosted inside Ec2 and uses the data wrangler package to interact with AWS.
-2. Once the csv is pushed to S3 there is a glue crawler which runs and makes the file available to AWS ATHENA
-3. In athena the DDL is generated and AWS quicksigt is then connected to the same table which is refreshed when the S3 bucket gets new data.
-4. Flask Front End on Ec2 interacting with AWS CLI :
+1. The flask application is hosted inside Ec2 and uses the data wrangler package to interact with AWS. A query is run in the backend which hits the Athena table.
+2. The data returned is stored a data frame in the flask application.
+3. The data frame is converted to a csv and pushed to S3 
+4. There is a glue crawler which runs every time a new file is pushed to s3. This is useful if we run queries multiple times which gives multiple CSV files for each fired query.  
+5. The Glue Catalog has the Database and the DDL for creating the table in Athena
+6. The table in Athena can be connected to Quicksight which is used to visualize the data.
+
+
+
+## Flask Application  on Ec2 interacting with AWS CLI :
 
 This front end can have any number of input methods such as input boxes, radio buttons which need to be relevant to the existing query.This front end hosting will be covered below.
 
@@ -60,7 +67,7 @@ Link: [Install wrangler](https://aws-data-wrangler.readthedocs.io/en/stable/)
 
 Once the instance is up and running we need to create a folder structure for our front end application:
 
-![Folder Struct](https://raw.githubusercontent.com/HariPranav/BENIMAGES/master/folderstruct_flask.png)
+![image](https://user-images.githubusercontent.com/28874545/154733004-5c409584-106f-4b1b-821b-7199a87684f4.png)
 
 #### Creating the index.html file:
 
