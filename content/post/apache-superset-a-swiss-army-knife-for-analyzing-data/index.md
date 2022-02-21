@@ -1,5 +1,5 @@
 ---
-title: "Apache Superset  A Swiss Army Knife for Analyzing Data "
+title: "Apache Superset -   A Swiss Army Knife for Analyzing Data "
 date: 2022-02-18T17:00:00.722Z
 summary: Apache Superset is a modern data exploration and visualization
   platform. Superset is fast, lightweight, intuitive and loaded with options
@@ -219,14 +219,25 @@ Go to the console, and choose the volume, then go to modify and change the stora
 We then need to manually allocate the storage on the ec2 instance.
 
 $ Df -Th
+
+
 This command is used to get the increased volume in this case it is XVDA
+
+
 $growpart /dev/xvda 1
+
+
 This will increase the partision
+
 $resize2fs /dev/xvda1
 
-## Increasing Storage on EC2 as the datasets increase:
 
-The analyics can be viewed in the SQL lab:
+
+## User Analytics on Superset:
+
+
+
+The analytics can be viewed in the SQL lab:
 
 It is present under the PGSQL database, Schema: Public, table ab_user
 
@@ -328,7 +339,9 @@ Here the name of the backup is docker in the folder backup_vol
 
 Now use docker compose up and restart from scratch
 
+
 $ sudo service docker restart
+
 $ sudo docker-compose up
 
 If we get errors ctrl+c then wait for the service to go down, then go to the main superset folder and run the main command to start superset.
@@ -343,6 +356,8 @@ This ensures that the volumes will be read from the correct location from the ba
    tar -zcvf name_of_file_to_be_saved folder_name
 
 • -z : Compress archive using gzip program in Linux or Unix
+
+
 • -c : Create archive on Linux
 • -v : Verbose i.e display progress while creating archive
 • -f : Archive File name
