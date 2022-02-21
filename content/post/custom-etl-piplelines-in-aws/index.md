@@ -17,17 +17,19 @@ image:
 ---
 
 
-Various visualization tools do not provide enought functionality, such as:
+Data Engineering involves building pipelines to produce data driven decisions from a variety of data sources as shown below:
+1. Relational Databases
+2. Non Relational Databases
+3. Data Marts 
+4. Streaming Sources .... etc.
 
-Take input from the user from a front end and then run the query in the backend.
+In this blog we will create an end to end Data Pipeline from a Flask Web application which will make use of Big Data tools like Athena to query the data on AWS and finally visualize the same on the cloud in near real time. 
 
-The result must be automatically displayed on the Dashbord.
 
-Hence we need to create a front end interface and use data frames to increase the flexibility of ETL pipelines.
 
 The architecture flow is as follows:
 
-![Architecture]![image](https://user-images.githubusercontent.com/28874545/154731819-b06da20b-d574-4303-9f34-e963e2e86613.png)
+![Architecture](https://user-images.githubusercontent.com/28874545/154731819-b06da20b-d574-4303-9f34-e963e2e86613.png)
 
 1. The flask application is hosted inside Ec2 and uses the data wrangler package to interact with AWS. A query is run in the backend which hits the Athena table.
 2. The data returned is stored a data frame in the flask application.
