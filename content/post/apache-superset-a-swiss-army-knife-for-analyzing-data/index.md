@@ -20,7 +20,7 @@ image:
 ---
 # Apache Superset A Visualization Tool
 
-Apache Superset is a an open source visualization tool which provides out of the box integrations with a wide variety of databases and cloud platfroms. It can be easily deployed on EC2 machines and has great features which meet the production grade requirements like
+Apache Superset is a an open source visualization tool which provides out of the box integrations with a wide variety of databases and cloud platforms. It can be easily deployed on EC2 machines and has great features which meet the production grade requirements like
 
 1. POWERFUL YET EASY TO USE
 
