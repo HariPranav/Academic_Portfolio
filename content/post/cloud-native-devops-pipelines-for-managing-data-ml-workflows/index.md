@@ -1,5 +1,5 @@
 ---
-title: Cloud Native DevOps Pipelines for Managing Data/ML Workflows
+title: Cloud Native DevOps Pipelines for Managing Scalable Data/ML Workflows
 date: 2022-05-19T11:46:31.234Z
 summary: DevOps on the Cloud offers great flexibility for developers to
   collaborate on projects using native tools. In this blog post, we will be
