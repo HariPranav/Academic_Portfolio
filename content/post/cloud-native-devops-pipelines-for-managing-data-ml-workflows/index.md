@@ -7,6 +7,13 @@ summary: DevOps on the Cloud offers great flexibility for developers to
   Data Engineering Pipelines.
 draft: false
 featured: false
+tags:
+  - Tech
+  - DevOps
+categories:
+  - DataEngineering
+  - Architecture
+  - DevOps
 image:
   filename: picture1.png
   focal_point: Smart
