@@ -15,7 +15,7 @@ categories:
   - Architecture
   - DevOps
 image:
-  filename: featured.png
+  filename: featured.jpg
   focal_point: Smart
   preview_only: false
 ---
