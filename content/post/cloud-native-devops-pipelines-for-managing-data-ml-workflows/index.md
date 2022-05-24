@@ -11,10 +11,13 @@ featured: false
 tags:
   - Tech
   - DevOps
+  - AWS
 categories:
   - DataEngineering
   - Architecture
   - DevOps
+  - AWS
+  - ML
 image:
   filename: featured.jpg
   focal_point: Smart
