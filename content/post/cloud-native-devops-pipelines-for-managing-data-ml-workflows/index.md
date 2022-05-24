@@ -1,5 +1,6 @@
 ---
-title: Cloud Native DevOps Pipelines for Managing Scalable Data/ML Workflows
+title: A CI/CD approach to building, Scalable Cloud-Native Data Engineering
+  Applications
 date: 2022-05-19T11:46:31.234Z
 summary: DevOps on the Cloud offers great flexibility for developers to
   collaborate on projects using native tools. In this blog post, we will be
@@ -19,22 +20,19 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-# A DevOps approach to develop Cloud Native applications
-
-In the last blog we created a Flask application on an AWS EC2 instance and built custom data pipelines to interact with Data Engineering tools on AWS. This method of deployment has its own pitfalls, as the entire software development lifecycle which involves the maintenance of code, development of new features, collaboration and versioning is often difficult to handle.
-Hence we need to shift to a DevOps approach which helps developers create an end to end pipelines from development to testing to production.
+In the last blog [link](https://medium.com/@haripranav98/building-data-engineering-pipelines-on-aws-5329f3120e77) we created a Flask application on an AWS EC2 instance and built custom data pipelines to interact with Data Engineering tools on AWS. This method of deployment has its own pitfalls, as the entire software development lifecycle which involves the maintenance of code, development of new features, collaboration and versioning is often difficult to handle.
+Hence we need to shift to a DevOps approach which helps developers create end to end pipelines from development to testing to production which can deal with collaborative changes.
 
 In this blog post we will be.
 
-1. Creating a Docker image of the Flask Application
-2. Publishing the image to AWS Container Registry
-3. Running the code in AWS Container Service using AWS Fargate
-4. Using AWS Code Commit as a repository to store updated code
-5. Using AWS Code Pipeline to define the workflow for tests and Automatic Updates to production based on code changes
+1. [Creating a Docker image of the Flask Application](#creating-a-docker-image-of-the-flask-application)
+2. [Publishing the image to AWS Container Registry and Running the code in AWS Container Service using AWS Fargate](#publishing-the-image-to-aws-container-registry-and-running-the-code-in-aws-container-service-using-aws-fargate)
+3. [Add a Load Balancer for the ECS deployment](#add-a-load-balancer-for-the-ecs-deployment)
+4. [Create an AWS Code Commit repository to push code](#create-an-aws-code-commit-repository-to-push-code)
+5. [Configure AWS Code Build to build new changes from the Code Commit Repository](#configure-aws-code-build-to-build-new-changes-from-the-code-commit-repository)
+6. [Configure Code Pipeline to automatically run steps 1 to 5 once the new commit is made to the Code Commit Repository](#configure-code-pipeline-to-automatically-run-steps-1-to-5-once-the-new-commit-is-made-to-the-code-commit-repository)
 
-In short, in this blog post we will be setting up a CI/CD pipeline on AWS for deployment of applications on Amazon Container Service which is similar to Kubernetes deployment. This method will help adopt a cloud native approach of deployment using Infrastructure As Code and this ensures highly scalable services on the cloud.
-
-# Containerizing the Flask Application:
+# Creating a Docker image of the Flask Application:
 
 We can create a simple flask application which can interact with AWS as shown in the blog post below.
 
@@ -97,9 +95,9 @@ When we run the command as shown below, it builds a container with the name **py
 
 Here "-d" will run it in detached mode and "-p" will expose the specific port.
 
-## Pushing the image to AWS ECS
+# Publishing the image to AWS Container Registry and Running the code in AWS Container Service using AWS Fargate
 
-We will be using AWS Fargate which is a server less compute engine for Amazon ECS that runs containers without the headache of managing the infrastructure.
+We will be using AWS Fargate which is a serverless compute engine for Amazon ECS that runs containers without the headache of managing the infrastructure.
 
 1. Open the AWS console and then search for ECR
 
@@ -195,7 +193,7 @@ We will be using AWS Fargate which is a server less compute engine for Amazon EC
 
    ![image](https://user-images.githubusercontent.com/28874545/166158258-05d1488a-c735-43e9-8a61-e5188dcce687.png)
 
-## Creating a Load Balancer to attach to our application:
+# Add a Load Balancer for the ECS deployment:
 
 Open the EC2 Console and then choose the application load balancer as shown below.
 
@@ -293,9 +291,7 @@ To trouble shoot this issue, we need to **OPEN PORT** for the newly created **Se
 
 [stackoverflow](https://stackoverflow.com/questions/44403982/aws-load-balancer-ec2-health-check-request-timed-out-failure)
 
-# DevOps in AWS
-
-## Creating the Code Commit Repo:
+# Create an AWS Code Commit repository to push code:
 
 Open the AWS console and search for CodeCommit, click on create a new Repository and give it a name and a **description** as shown in the image below.
 
@@ -365,21 +361,21 @@ $ git remote -v
 
 $ git push origin master
 
-## Code Pipeline:
+# Configure Code Pipeline to automatically run steps 1 to 5 once the new commit is made to the Code Commit Repository:
 
 We can then use Code Pipeline to configure builds from CodeCommit to the ECR which will inturn run the image on ECS.
 
-1. Go to **CodePipeline** and click on **GetStarted**
+1.Go to **CodePipeline** and click on **GetStarted**
 
 Choose the **Service**, **Repo** and the Click on Next. Select the Repo name and Create a new service Role as shown below
 
 ![image](https://user-images.githubusercontent.com/28874545/166220689-93dbea15-c080-40a8-949a-89659ede2a98.png)
 
-2. Choose the Source as **AWS code Commit** and Repo name from the dropdown. Then Choose the **Master branch** and click on Next
+2.Choose the Source as **AWS code Commit** and Repo name from the dropdown. Then Choose the **Master branch** and click on Next
 
 ![image](https://user-images.githubusercontent.com/28874545/166220639-a5a874bd-2ac1-4872-8418-6b829b8e1620.png)
 
-3. Next, for the build provider select CodeBuild and create a new build project, give it a name and configure it as follows
+3.Next, for the build provider select CodeBuild and create a new build project, give it a name and configure it as follows
 
 ![image](https://user-images.githubusercontent.com/28874545/169281262-62402be6-6322-4c16-893e-93538956204e.png)
 
@@ -387,7 +383,7 @@ Make sure to **Check the box: Privileged** and make sure that the new service ro
 
 ![image](https://user-images.githubusercontent.com/28874545/169281298-a2a82932-1d25-4c24-8cc1-b71ca7ad2608.png)
 
-4. It will create a New service role, to which we have to add ECRContainerBuilds permission. For that, open the IAM console in a new tab, go to Roles and search and select the above-created role, and click Attach policies. Search for ECR and select the policy as below and click Attach policy
+4.It will create a New service role, to which we have to add ECRContainerBuilds permission. For that, open the IAM console in a new tab, go to Roles and search and select the above-created role, and click Attach policies. Search for ECR and select the policy as below and click Attach policy
 
 ![image](https://user-images.githubusercontent.com/28874545/169281388-037ac079-c521-4970-926c-4e2b6709ee69.png)
 
@@ -403,7 +399,7 @@ Once all the configurations are you should have something like this:
 
 You can then make changes in the code push the commit to the repository and the pipeline will run and deploy the Latest changes to ECR via the DevOps Pipeline.
 
-If you do, You **yyess, You** have implemented have implemented a cloud native DevOps scalable pipeline for Machine Learning and Data Engineering .
+If you do, You **yyess, You** have implemented have implemented a cloud native DevOps scalable pipeline for Machine Learning and DataEngineering .
 
 **Don't forget to leave a Like, Share and Comment !!!!!**
 
