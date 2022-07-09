@@ -1,5 +1,5 @@
 ---
-title: A CI/CD approach to building, Scalable Cloud-Native Data Engineering
+title: A DevOps approach to building, Scalable Cloud-Native Data Engineering
   Applications
 date: 2022-05-19T11:46:31.234Z
 summary: DevOps on the Cloud offers great flexibility for developers to
