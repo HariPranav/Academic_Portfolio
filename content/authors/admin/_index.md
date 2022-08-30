@@ -22,13 +22,16 @@ social:
     icon_pack: fab
     link: https://twitter.com/aharipranav
 organizations:
-  - name: "Pennsylvania State University @ Masters in Cybersecurity "
+  - name: Pennsylvania State University
     url: ""
 education:
   courses:
     - course: B.E - Information Science and Engineering
       institution: CMRIT
       year: 2021
+    - course: MS Computer and Information Systems Security
+      institution: The Pennsylvania State University
+      year: -1
 email: ""
 superuser: true
 highlight_name: true
