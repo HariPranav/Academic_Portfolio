@@ -22,7 +22,7 @@ social:
     icon_pack: fab
     link: https://twitter.com/aharipranav
 organizations:
-  - name: Pennsylvania State University
+  - name: "Pennsylvania State University @ Masters in Cybersecurity "
     url: ""
 education:
   courses:
@@ -33,8 +33,8 @@ email: ""
 superuser: true
 highlight_name: true
 ---
-My name is Hari Pranav A and I am pursuing my masters in Cybersecurity at the Pennsylvania State University . I am interested in solving problems in the domain of Secure Cloud computing and building secure solutions on the cloud. In my previous work experience my tasks included working on Big Data platforms which deal with the business understanding, cleaning and modelling of data. I have also worked on Elastic Kubernetes / Container Service and deployment of Analytics platforms such as Apache Superset.
+My name is Hari Pranav A and I am pursuing my masters in Cybersecurity at the Pennsylvania State University . I am interested in solving problems in the domain of Secure Cloud computing and building secure solutions on the cloud. In my previous work experience my tasks included working on Big Data platforms which deal with the business understanding, cleaning and modelling of data. I have also worked on Elastic Kubernetes / Container Service and on the deployment of open source Analytics platforms such as Apache Superset which was used by 3000 users.
 
-Outside work I love to participate and volunteer at Hackathons and I have won a few of them!. I am actively working on research projects and in the domain of decentralized computing and cyber security and have published papers as well.  
+Outside work I love to participate and volunteer at Hackathons and I have won a few of them!. I am actively working on research projects in the domain of decentralized computing and cybersecurity and have published papers as well.  
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
