@@ -33,7 +33,7 @@ email: ""
 superuser: true
 highlight_name: true
 ---
-My name is Hari Pranav A and I am pursuing my masters in Cybersecurity at the Pennsylvania State University . I am interested in solving problems in the domain of Secure Cloud computing and building secure solutions on the cloud. In my previous work experience my tasks included working on Big Data platforms which deal with the business understanding, cleaning and modelling of data. I have also worked on Elastic Kubernetes / Container Service and on the deployment of open source Analytics platforms such as Apache Superset which was used by 3000 users.
+My name is Hari Pranav A and I am pursuing my masters in Cybersecurity at The Pennsylvania State University . I am interested in solving problems in the domain of Secure Cloud computing and building secure solutions on the cloud. In my previous work experience my tasks included working on Big Data platforms which deal with the business understanding, cleaning and modelling of data. I have also worked on Elastic Kubernetes / Container Service and on the deployment of open source Analytics platforms such as Apache Superset which was used by 3000 users.
 
 Outside work I love to participate and volunteer at Hackathons and I have won a few of them!. I am actively working on research projects in the domain of decentralized computing and cybersecurity and have published papers as well.  
 
