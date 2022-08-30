@@ -29,9 +29,9 @@ education:
     - course: B.E - Information Science and Engineering
       institution: CMRIT
       year: 2021
-    - course: MS Computer and Information Systems Security
+    - course: M.S Computer and Information Systems Security
       institution: The Pennsylvania State University
-      year: -1
+      year: 2024
 email: ""
 superuser: true
 highlight_name: true
