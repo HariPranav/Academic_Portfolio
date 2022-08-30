@@ -6,7 +6,7 @@ bio: My research interests include Decentralized Computing, Cloud Security and
   Dev Ops
 interests:
   - Cloud Security
-  - Dev Ops
+  - Dev Sec Ops
   - Decentralized Computing
 social:
   - icon: linkedin
@@ -22,8 +22,8 @@ social:
     icon_pack: fab
     link: https://twitter.com/aharipranav
 organizations:
-  - name: Analyst @ EY LLP
-    url: https://www.ey.com/en_in
+  - name: Pennsylvania State University
+    url: ""
 education:
   courses:
     - course: B.E - Information Science and Engineering
@@ -33,9 +33,8 @@ email: ""
 superuser: true
 highlight_name: true
 ---
+My name is Hari Pranav A and I am pursuing my masters in Cybersecurity at the Pennsylvania State University . I am interested in solving problems in the domain of Secure Cloud computing and building secure solutions on the cloud. In my previous work experience my tasks included working on Big Data platforms which deal with the business understanding, cleaning and modelling of data. I have also worked on Elastic Kubernetes / Container Service and deployment of Analytics platforms such as Apache Superset.
 
-Hari Pranav A is an engineering graduate and is currently working as Senior Analyst at EY. He is a part of the Cloud Architecture team, which is responsible for deployment and maintenance of secure solutions on the cloud. His tasks include working on Big Data platforms which deal with the business understanding, cleaning and modelling of data. He actively maintains EC2 instances and has deployed and secured Analytics platforms such as Apache Superset deployment on Docker.
- 
-Outside work he can be found participating and volunteering at International/National Hackathons and he has won a few of them during his college days. He has also published research papers in the field of decentralized computing and cyber security.  
+Outside work I love to participate and volunteer at Hackathons and I have won a few of them!. I am actively working on research projects and in the domain of decentralized computing and cyber security and have published papers as well.  
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
