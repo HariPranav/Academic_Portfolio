@@ -36,7 +36,9 @@ email: ""
 superuser: true
 highlight_name: true
 ---
-My name is Hari Pranav A and I am interested in solving problems in the domain of Secure Cloud Computing and building secure solutions on the cloud. In my previous work experience my tasks included working on Big Data platforms which deal with the business understanding, cleaning and modelling of data. I have also worked on Elastic Kubernetes / Container Service for the deployment of open source Analytics platforms such as Apache Superset which was used by 3000 users.
+My name is Hari Pranav and I am actively looking for internships in the domain of Security, Cloud, Data Engineering and Analytics. In my previous work experience my tasks included working on Big Data platforms which deal with the business understanding, cleaning and modelling of data. During these tasks I was intrigued to learn about data security at rest and motion and developed various solutions for the same which can be accessed via the blog section.
+
+I have also worked on Elastic Kubernetes / Container Service for the deployment of open source Analytics platforms such as Apache Superset which was used by 3000 users
 
 Outside work I love to participate and volunteer at Hackathons and I have won a few of them!. I am actively working on research projects and have published papers on the application of blockchain in governance.  
 
