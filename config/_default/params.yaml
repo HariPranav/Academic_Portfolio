@@ -21,7 +21,7 @@ twitter: ''
 # Contact (edit or remove options as required)
 
 email: haripranav98@gmail.com
-phone: +918867356167
+phone: +18143213394
 appointment_url: 'https://calendly.com/haripranav98'
 # Site header
 
@@ -124,3 +124,7 @@ cms:
 icon:
   pack:
     ai: true
+
+marketing:
+  analytics:
+    google_tag_manager: 'G-2W2Q6X9WWP'
