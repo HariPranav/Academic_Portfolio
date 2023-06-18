@@ -11,7 +11,7 @@ interests:
 social:
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/hari-pranav-a-77b067162
+    link: https://www.linkedin.com/in/hari-pranav-arun-kumar-77b067162/
   - icon: graduation-cap
     icon_pack: fas
     link: https://scholar.google.com/citations?user=fvWsuGAAAAAJ&hl=en
@@ -36,9 +36,9 @@ email: ""
 superuser: true
 highlight_name: true
 ---
-My name is Hari Pranav and I am actively looking for internships in the domain of Security/ Cloud / Data Engineering and Analytics. In my previous work experience my tasks included working on Big Data platforms which deal with the business understanding, cleaning and modelling of data. During these tasks I was intrigued to learn about data security at rest and motion and developed various solutions for the same which can be accessed via the blog section.
+I am actively looking for full time positions in the domain of Security/ Cloud / Data Engineering and Analytics. In my previous work experience my tasks included working on Big Data platforms which deal with the business understanding, cleaning and modelling of data. During these tasks I was intrigued to learn about data security at rest and motion and developed various solutions for the same which can be accessed via the blog section.
 
-I have also worked on Elastic Kubernetes / Container Service for the deployment of open source Analytics platforms such as Apache Superset which was used by 3000 users
+I have also worked on Elastic Kubernetes / Container Service for the deployment of open source Analytics platforms such as Apache Superset which was used by 3000 users.
 
 Outside work I love to participate and volunteer at Hackathons and I have won a few of them!. I am actively working on research projects and have published papers on the application of blockchain in governance.  
 
