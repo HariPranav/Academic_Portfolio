@@ -22,6 +22,20 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Product Security Intern
+    company: Lutron
+    company_url: 'https://www.lutron.com/en-US/pages/default.aspx'
+    company_logo: Lutron
+    location: Philadelphia, USA
+    date_start: '2023-05-01'
+    date_end: '2023-08-18'
+    description: |2-
+        Responsibilities include:
+        
+        * Evaluation of Cloud Security tools, including Prowler, ScoutSuite reducing cost by 50%.
+        * Architecture and implementation of DevSecOps pipeline on AWS.
+        * Created dashboards for security standards including CIS, NIST, GDPR reducing risk by 40%.
+    
   - title: Data Analyst
     company: EY LLP
     company_url: 'https://www.ey.com/en_in'
