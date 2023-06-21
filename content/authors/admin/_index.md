@@ -36,9 +36,11 @@ email: ""
 superuser: true
 highlight_name: true
 ---
-I am actively looking for full time positions in the domain of Security/ Cloud / Data Engineering and Analytics. In my previous work experience my tasks included working on Big Data platforms which deal with the business understanding, cleaning and modelling of data. During these tasks I was intrigued to learn about data security at rest and motion and developed various solutions for the same which can be accessed via the blog section.
+I am actively looking for full time positions in the domain of Security/ Cloud / Data Engineering and Analytics. As a product security specialist, I take a proactive approach to anticipate and prevent security issues from arising. I have a proven track record of successfully implementing security controls, conducting code reviews, and collaborating with cross-functional teams to integrate security best practices into the development lifecycle. I understand the importance of balancing security requirements with usability and performance to deliver seamless user experiences.
 
-I have also worked on Elastic Kubernetes / Container Service for the deployment of open source Analytics platforms such as Apache Superset which was used by 3000 users.
+
+
+My experience extends beyond traditional security measures to encompass cloud security, application security, and data protection. I stay updated with the latest industry trends and emerging technologies to stay one step ahead of potential threats. Additionally, I am well-versed in compliance frameworks and standards such as ISO 27001, NIST, and GDPR, ensuring that organizations I work with adhere to necessary security regulations. I actively contribute to open source security tools and worked on AWS Prowler, Scout Suite, Apache Superset etc.
 
 Outside work I love to participate and volunteer at Hackathons and I have won a few of them!. I am actively working on research projects and have published papers on the application of blockchain in governance.  
 
