@@ -25,8 +25,8 @@ experience:
   - title: Product Security Intern
     company: Lutron
     company_url: 'https://www.lutron.com/en-US/pages/default.aspx'
-    company_logo: Lutron
-    location: Philadelphia, USA
+    company_logo: ey
+    location: USA
     date_start: '2023-05-01'
     date_end: '2023-08-18'
     description: |2-
