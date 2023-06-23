@@ -113,8 +113,8 @@ map:
   api_key: ''
   zoom: 15
 marketing:
-  google_analytics: 'G-2W2Q6X9WWP'
-  google_tag_manager: 'G-2W2Q6X9WWP'
+  google_analytics: 'GT-P8QTK8F'
+  google_tag_manager: 'GT-P8QTK8F'
   google_site_verification: ''
   baidu_site_verification: ''
   baidu_tongji: ''
@@ -127,4 +127,4 @@ icon:
 
 marketing:
   analytics:
-    google_tag_manager: 'G-2W2Q6X9WWP'
+    google_tag_manager: 'GT-P8QTK8F'
