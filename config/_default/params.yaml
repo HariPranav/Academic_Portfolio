@@ -115,6 +115,7 @@ map:
 marketing:
   google_analytics: 'GT-P8QTK8F'
   google_tag_manager: 'GT-P8QTK8F'
+  microsoft_clarity: 'hoiwixf864'
   google_site_verification: ''
   baidu_site_verification: ''
   baidu_tongji: ''
@@ -128,3 +129,4 @@ icon:
 marketing:
   analytics:
     google_tag_manager: 'GT-P8QTK8F'
+    microsoft_clarity: 'hoiwixf864'
